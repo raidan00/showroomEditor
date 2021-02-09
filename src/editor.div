@@ -1,0 +1,21 @@
+<div class="top">
+	edit mode global input: 
+	<input type="text" id="globalInput" >
+</div>
+<div class="left">
+	<div class="title">views list</div>
+	<div id="views" class="list">
+	</div>
+	<div class="click" onclick="addView()">add view</div>
+</div>
+<div class="right">
+	<label class="click">
+		set panorama
+		<input type="file" id="setPanorama" class="click" oninput="changePanorama()">
+	</label>
+	<div class="title">teleports list</div>
+	<div id="teleports" class="list">
+	</div>
+	<div class="click" onclick="addTeleport()">add teleport</div>
+	</div>
+</div>

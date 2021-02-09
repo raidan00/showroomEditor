@@ -1,0 +1,10 @@
+{
+	"name": "empty",
+	"firstView": "first",
+	"views": {
+		"first": {
+			"teleports": {
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+#editorDiv {
+	user-select: none;
+}
+#editorDiv > div {
+	position: fixed;
+	top: 0px;
+	display: flex;
+	flex-direction: column;
+}
+#editorDiv .top {
+	width: 100%;
+	align-items: center;
+	background-color: #9a9a9a;
+	flex-direction: initial;
+    justify-content: center;
+}
+#editorDiv .left, .right{
+	width: 50%;
+	margin-top: 22px;
+	pointer-events: none;
+}
+#editorDiv .left {
+	left: 0px;
+	align-items: flex-start;
+}
+#editorDiv .right {
+	right: 0px;
+	align-items: flex-end;
+}
+#editorDiv .click{
+	pointer-events: auto;
+	margin: 1px;
+    background-color: #9a9a9a8c;
+    width: fit-content;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 36px;
+	outline: 0;
+	cursor: pointer;
+}
+#editorDiv .element {
+    background-color: #9a9a9a8c;
+    width: fit-content;
+    padding: 3px;
+	pointer-events: auto;
+}
+#editorDiv .title{
+	margin: 1px;
+    background-color: #9a9a9a8c;
+    width: fit-content;
+    padding: 3px;
+    border: 1px solid black;
+}
+#editorDiv .list {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+input[type="file"] {
+    display: none;
+}
